@@ -36,7 +36,7 @@
                 <error-output class="address-error" for="address"></error-output>
             </div>
             <div class="select-box">
-                <div>
+                <div name="city" id="city" class="city">
                     <label for="city" class="label text">City</label>
                     <select class="select" name="city" id="city">
                         <option selected disabled>Select City</option>
@@ -47,7 +47,7 @@
                         <option value="Del">Delhi</option>
                     </select>
                 </div>
-                <div>
+                <div name="state" id="state" class="state">
                     <label for="state" class="label text">State</label>
                     <select class="select" name="state" id="state">
                         <option selected disabled>Select State</option>
@@ -57,7 +57,7 @@
                         <option value="Mg">Mangalore</option>
                     </select>
                 </div>
-                <div class="zip">
+                <div name="zip" id="zip" class="zip">
                     <label for="zip" class="label text">Zip Code</label>
                     <input class="select" type="number" name="zip" id="zip">
                 </div>
@@ -66,13 +66,6 @@
                 <label class="label text" for="phoneNo">Phone Number</label>
                 <input class="input" id="phoneNo" name="phoneNo" type="text" required>
                 <error-output class="phoneNo-error" for="phoneNo"></error-output>
-            </div>
-
-            <div class="buttonParent">
-                <div class="submit-reset">
-                    <button class="submitButton button" type="submit" id="submit">Add</button>
-                    <button class="resetButton button" type="reset" id="reset">Reset</button>
-                </div>
             </div>
         </form>
     </div>
